@@ -1,0 +1,49 @@
+// SPDX-License-Identifier: MIT
+
+#define wxUSE_NO_MANIFEST 1
+#include "wx/msw/wx.rc"
+
+1 RT_MANIFEST "havGamePatcher.manifest"
+
+APP_ICON ICON "havGamePatcher.ico"
+
+// Store metadata as Unicode regardless of the build machine's code page
+#pragma code_page(65001)
+#include "havGamePatcherInfo.hpp"
+
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+
+1 VERSIONINFO
+  FILEVERSION HAVGAMEPATCHER_VERSION
+  PRODUCTVERSION HAVGAMEPATCHER_VERSION
+  FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
+#ifdef PATCHER_DEBUG_BUILD
+  FILEFLAGS VS_FF_DEBUG
+#else
+  FILEFLAGS 0
+#endif
+  FILEOS VOS_NT_WINDOWS32
+  FILETYPE VFT_APP
+  FILESUBTYPE VFT2_UNKNOWN
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904B0"
+    BEGIN
+      VALUE "Author", HAVGAMEPATCHER_AUTHOR "\0"
+      VALUE "CompanyName", HAVGAMEPATCHER_AUTHOR "\0"
+      VALUE "FileDescription", HAVGAMEPATCHER_DESCRIPTION "\0"
+      VALUE "FileVersion", HAVGAMEPATCHER_VERSION_STRING "\0"
+      VALUE "InternalName", HAVGAMEPATCHER_NAME "\0"
+      VALUE "LegalCopyright", HAVGAMEPATCHER_COPYRIGHT "\0"
+      VALUE "OriginalFilename", HAVGAMEPATCHER_NAME ".exe\0"
+      VALUE "ProductName", HAVGAMEPATCHER_NAME "\0"
+      VALUE "ProductVersion", HAVGAMEPATCHER_VERSION_STRING "\0"
+      VALUE "Comments", HAVGAMEPATCHER_COMMENTS "\0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x0409, 1200
+  END
+END

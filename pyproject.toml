@@ -1,0 +1,5 @@
+[tool.black]
+line-length = 100
+target-version = ['py310']
+include = '^/(scripts|tests)/.*\.py$'
+force-exclude = '^/out/'

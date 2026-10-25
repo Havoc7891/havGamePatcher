@@ -1,0 +1,10 @@
+{
+  "edition": "English",
+  "patchVersion": 1,
+  "payloadVersion": 1,
+  "profileSha256": "5a343c40adfa3d32b831936f9de580004fea2e59d4922ec54c0f772bb49d1058",
+  "payloadSha256": "9662746feb342f0b7839135c959560733ccf4f1c63adf1a55e0a8df20682b0c3",
+  "intermediateSha256": "3cbb6162b546f5ae936b3c976a3a49484b2466643734a33cca5680bd1f1f7dde",
+  "patchedSha256": "1aa0d1ad8d5d799d4d7f3c9c88b43a80545c3ec953444545b87622bff088c2f5",
+  "patchedSize": 1903616
+}

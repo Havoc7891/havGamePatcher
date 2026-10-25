@@ -1,0 +1,109 @@
+; SPDX-License-Identifier: MIT
+
+LIBRARY layoutPayload
+EXPORTS
+  config DATA
+  state DATA
+  enterMission=EnterMission
+  afterFrame=AfterFrame
+  beforeTeardown=BeforeTeardown
+  beforeTransition=BeforeTransition
+  leaveMission=LeaveMission
+  missionHook=MissionHook
+  frameHook=FrameHook
+  teardownHook=TeardownHook
+  modeHook=ModeHook
+  beforeVideoOpen=BeforeVideoOpen
+  afterVideoCleanup=AfterVideoCleanup
+  videoOpenHook=VideoOpenHook
+  videoCleanupHook=VideoCleanupHook
+  beforeMainMenuShow=BeforeMainMenuShow
+  afterMainMenuShow=AfterMainMenuShow
+  afterMainMenuHide=AfterMainMenuHide
+  afterTransition=AfterTransition
+  mainMenuShowHook=MainMenuShowHook
+  mainMenuHideHook=MainMenuHideHook
+  afterFullscreenSetup=AfterFullscreenSetup
+  releaseBackbuffer=ReleaseBackbuffer
+  afterModeAttempt=AfterModeAttempt
+  fullscreenSetupHook=FullscreenSetupHook
+  resourceReleaseHook=ResourceReleaseHook
+  prepareStartupFrames=PrepareStartupFrames
+  startupFramesHook=StartupFramesHook
+  clearPolygonHook=ClearPolygonHook
+  beforeSurfaceUnlock=BeforeSurfaceUnlock
+  backbufferLockHook=BackbufferLockHook
+  surfaceUnlockHook=SurfaceUnlockHook
+  afterRendererInit=AfterRendererInit
+  prepareExecuteData=PrepareExecuteData
+  prepareStateExecuteData=PrepareStateExecuteData
+  rendererInitHook=RendererInitHook
+  executeDataHook=ExecuteDataHook
+  stateInstructionsHook=StateInstructionsHook
+  stateExecuteDataHook=StateExecuteDataHook
+  textureState DATA
+  finishFlushUnlock=FinishFlushUnlock
+  flushUnlockHook=FlushUnlockHook
+  recoverLostTextures=RecoverLostTextures
+  focusState DATA
+  beginFocusTransition=BeginFocusTransition
+  finishFocusTransition=FinishFocusTransition
+  bridgeState DATA
+  createDeviceBridge=_CreateDeviceBridge@12
+  beginSceneBridge=_BeginSceneBridge@4
+  endSceneBridge=_EndSceneBridge@4
+  createDeviceHook=CreateDeviceHook
+
+  loadState DATA
+  loadTextureWithRecovery=_LoadTextureWithRecovery@8
+  textureLoadHook=_TextureLoadHook@8
+  captureTextureSource=_CaptureTextureSource@8
+  transferTexture=_TransferTexture@12
+  textureSourceHook=TextureSourceHook
+  textureTransferStats DATA
+  textureTransferState DATA
+  textureLifecycleState DATA
+  advanceTextureLifecycle=AdvanceTextureLifecycle
+  advanceTextureFrameEpoch=AdvanceTextureFrameEpoch
+  advanceTextureFrame=AdvanceTextureFrame
+
+  shellState DATA
+  syncShellFullscreen=SyncShellFullscreen
+  clearShellFullscreen=ClearShellFullscreen
+
+  readinessState DATA
+  prepareRenderer=PrepareRenderer
+
+  flipProbeState DATA
+  movieRecoveryState DATA
+  observeFlip=_ObserveFlip@16
+  flipProbeHook=_FlipProbeHook@12
+  ownedUnlockResultHook=OwnedUnlockResultHook
+  modeAdmissionPreTranslate=ModeAdmissionPreTranslate
+  softwarePresentHook=SoftwarePresentHook
+  softwareDrawHook=SoftwareDrawHook
+  observeSoftwareBitBlt=_ObserveSoftwareBitBlt@36
+  observeSoftwareStretchBlt=_ObserveSoftwareStretchBlt@44
+  menuDrawHook=MenuDrawHook
+  menuBitmapHook=MenuBitmapHook
+  menuQueueHook=MenuQueueHook
+  menuResumeHook=MenuResumeHook
+  menuNewGameHook=MenuNewGameHook
+  menuMultiplayerHook=MenuMultiplayerHook
+  observeMenuStretchBlt=_ObserveMenuStretchBlt@44
+
+  endSceneFailureHook=EndSceneFailureHook
+  preMoviePresentHook=PreMoviePresentHook
+  quadFlushReturnHook=QuadFlushReturnHook
+  quadHudReturnHook=QuadHudReturnHook
+  quadFrameReturnHook=QuadFrameReturnHook
+  presentRecoveryFrame=PresentRecoveryFrame
+  quadResetReturnHook=QuadResetReturnHook
+  worldFrameReturnHook=WorldFrameReturnHook
+  rawSurfaceLockResultHook=RawSurfaceLockResultHook
+  relockDecisionHook=RelockDecisionHook
+  relockFrameReturnHook=RelockFrameReturnHook
+  failedPresentationHook=FailedPresentationHook
+
+  guardedRendererImage DATA
+  ChildCreateDevice

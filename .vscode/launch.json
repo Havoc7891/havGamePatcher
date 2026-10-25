@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "havGamePatcher (MSVC Debug)",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/out/build/msvc/Debug/havGamePatcher.exe",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "CMake: build MSVC Debug"
+    },
+    {
+      "name": "havGamePatcher (MinGW Debug)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/out/build/mingw-debug/havGamePatcher.exe",
+      "cwd": "${workspaceFolder}",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb.exe",
+      "preLaunchTask": "CMake: build MinGW Debug"
+    }
+  ]
+}

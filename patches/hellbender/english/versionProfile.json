@@ -1,0 +1,1111 @@
+{
+  "format": "HellbenderRetailVersionProfile",
+  "version": 1,
+  "language": "English",
+  "originalSha256": "0044f711594744450040cefe7fee14a1e0f2c1136434fe54a680e99ea9424a5b",
+  "joystickSha256": "63bfd5026ab1fa216ff8efde2af4e79d782ecdeaaad2d31d2d47b9a763dbe09a",
+  "sourceSize": 1685504,
+  "originalSize": 1685504,
+  "imageSize": "0x4f2000",
+  "preferredBase": "0x400000",
+  "timestamp": "0x322dfc6a",
+  "checksum": "0x0",
+  "sectionCount": 6,
+  "nativeRvaMap": {
+    "0x5d80": "0x9f6f0",
+    "0x6091": "0x9fa01",
+    "0x624b": "0x9fbbb",
+    "0xb193": "0x2203",
+    "0xb1b1": "0x2221",
+    "0xb240": "0x22b0",
+    "0xb296": "0x2306",
+    "0xb47a": "0x24ea",
+    "0xb480": "0x24f0",
+    "0xb49e": "0x250e",
+    "0xb4ab": "0x251b",
+    "0xb52c": "0x259c",
+    "0xb6b0": "0x2720",
+    "0xb760": "0x27d0",
+    "0xb77c": "0x27ec",
+    "0xb7d0": "0x2840",
+    "0xb800": "0x2870",
+    "0xb860": "0x28d0",
+    "0xb865": "0x28d5",
+    "0xba62": "0x2ad2",
+    "0xc020": "0x2f80",
+    "0xc02f": "0x2f8f",
+    "0xc032": "0x2f92",
+    "0xc039": "0x2f99",
+    "0xc54b": "0x34ab",
+    "0xc58a": "0x34ea",
+    "0xc591": "0x34f1",
+    "0xc59a": "0x34fa",
+    "0xc7a1": "0x3701",
+    "0xc7a6": "0x3706",
+    "0xc7ad": "0x370d",
+    "0xc7ed": "0x374d",
+    "0xc822": "0x3782",
+    "0xc8ad": "0x380d",
+    "0xc8b2": "0x3812",
+    "0xc8c9": "0x3829",
+    "0xc911": "0x3871",
+    "0xca90": "0x39f0",
+    "0xcc73": "0x3bd3",
+    "0xcc78": "0x3bd8",
+    "0xcd0d": "0x3c6d",
+    "0xcf90": "0x3ef0",
+    "0xd084": "0x3fec",
+    "0xd0af": "0x4017",
+    "0xd107": "0x406f",
+    "0xd10d": "0x4075",
+    "0xd143": "0x40ab",
+    "0xd495": "0x43f5",
+    "0xd49a": "0x43fa",
+    "0xd569": "0x44c9",
+    "0xd56e": "0x44ce",
+    "0x244e0": "0x3a900",
+    "0x244e6": "0x3a906",
+    "0x246c6": "0x3aae6",
+    "0x24df0": "0x3b220",
+    "0x24df6": "0x3b226",
+    "0x24f50": "0x3b370",
+    "0x24f59": "0x3b379",
+    "0x253a2": "0x3b7c4",
+    "0x253b0": "0x3b7d3",
+    "0x253b2": "0x3b7d5",
+    "0x253b6": "0x3b7d9",
+    "0x2554f": "0x3b972",
+    "0x369dd": "0x2620d",
+    "0x49f50": "0x73a30",
+    "0x58ca0": "0x7f5e0",
+    "0x5a700": "0x882c0",
+    "0x5e87c": "0x592ac",
+    "0x6a545": "0xf8f5",
+    "0x6bca6": "0x21056",
+    "0x7ea4b": "0x3803b",
+    "0x8cf50": "0x811e0",
+    "0x8d150": "0x813e0",
+    "0x8d156": "0x813e6",
+    "0x8e0d7": "0x823c1",
+    "0x8e22a": "0x82501",
+    "0xa1a30": "0x9ffb0",
+    "0x1028ec": "0x112634",
+    "0x1028f8": "0x112640",
+    "0x1028fc": "0x112644",
+    "0x102964": "0x1126ac",
+    "0x1029d0": "0x112718",
+    "0x1029d4": "0x11271c",
+    "0x103294": "0x100224",
+    "0x10329c": "0x10022c",
+    "0x1032a0": "0x100230",
+    "0x1032a4": "0x100234",
+    "0x1032a8": "0x100238",
+    "0x1032d0": "0x100260",
+    "0x1032d8": "0x100268",
+    "0x1032dc": "0x10026c",
+    "0x1032e8": "0x100278",
+    "0x1032ec": "0x10027c",
+    "0x1032f4": "0x100284",
+    "0x1032fc": "0x10028c",
+    "0x103304": "0x100294",
+    "0x103308": "0x100298",
+    "0x10330c": "0x10029c",
+    "0x103310": "0x1002a0",
+    "0x10331c": "0x1002ac",
+    "0x104284": "0x1042d0",
+    "0x1045d0": "0x10d740",
+    "0x1045f0": "0x10d760",
+    "0x10460c": "0x10d77c",
+    "0x104624": "0x10d794",
+    "0x104e74": "0x10dfe4",
+    "0x1050c8": "0x102268",
+    "0x106050": "0x1112d0",
+    "0x1081a0": "0x1017c0",
+    "0x11b404": "0x116b1c",
+    "0x11bd40": "0x117458",
+    "0x11cd54": "0x11846c",
+    "0x11ce14": "0x11852c",
+    "0x121e10": "0x11d528",
+    "0x121e18": "0x11d530",
+    "0x122e18": "0x11e530",
+    "0x1235b0": "0x11ecc8",
+    "0x1236b8": "0x11edd0",
+    "0x12372c": "0x11ee44",
+    "0x123730": "0x11ee48",
+    "0x123738": "0x11ee50",
+    "0x1247b0": "0x11fec8",
+    "0x1247b4": "0x11fecc",
+    "0x1247c0": "0x11fed8",
+    "0x13a424": "0x179764",
+    "0x13a42c": "0x17976c",
+    "0x13b0f0": "0x17a430",
+    "0x258164": "0x1d29e0",
+    "0x258170": "0x1d29f0",
+    "0x467aac": "0x1b334c",
+    "0x467f48": "0x1b37e8",
+    "0x46816c": "0x1b3a0c",
+    "0x47cc98": "0x479ca4",
+    "0x47cca8": "0x479cb4",
+    "0x47cd3c": "0x479d4c",
+    "0x47cdf4": "0x479e64",
+    "0x47cdfc": "0x479efc",
+    "0x47ce1c": "0x479e00",
+    "0x47cea8": "0x479ec4",
+    "0x47cec0": "0x479ee4",
+    "0x47cee4": "0x479f0c",
+    "0x47cf24": "0x479f4c",
+    "0x47cf4c": "0x479f08",
+    "0x47cf54": "0x479ecc",
+    "0x47cf7c": "0x47a03c",
+    "0x47cf94": "0x479fb4",
+    "0x47cfb8": "0x479fe0",
+    "0x47cfe0": "0x47a014",
+    "0x47cfe8": "0x47a020",
+    "0x47d004": "0x47a050",
+    "0x47d028": "0x47a004",
+    "0x47d02c": "0x47a034",
+    "0x47d03c": "0x479f9c",
+    "0xb21f": "0x228f",
+    "0x2b1b8": "0x70978",
+    "0x13ac98": "0x179fd8",
+    "0x13b0c0": "0x17a400",
+    "0x139d18": "0x179058",
+    "0x124738": "0x11fe50"
+  },
+  "gameRvas": {
+    "mode": "0x10d794",
+    "directDraw": "0x10d760",
+    "hardware": "0x102268",
+    "width": "0x112640",
+    "height": "0x112644",
+    "app": "0x1042d0",
+    "view": "0x10dfe4",
+    "legacyVideo": "0x10d740",
+    "fullscreenActive": "0x17976c",
+    "movieWindow": "0x17a430",
+    "mainMenuVisible": "0x10d77c",
+    "quit": "0x112634",
+    "gameStage": "0x1126ac",
+    "software": "0x112718",
+    "renderBpp": "0x11271c",
+    "hardwarePreference": "0x100224",
+    "drawObject": "0x100230",
+    "primary": "0x100234",
+    "backbuffer": "0x100238",
+    "vertexLimit": "0x11edd0",
+    "instructionOffset": "0x11fec8",
+    "executeCapacity": "0x11d528",
+    "drawLock": "0x10029c",
+    "drawSession": "0x1002a0",
+    "drawWindow": "0x179764",
+    "cockpitFullRedrawCount": "0x1017c0",
+    "getLastError": "0x479d4c",
+    "setLastError": "0x479ca4",
+    "getCurrentThreadId": "0x479cb4",
+    "getWindowThreadProcessId": "0x479e64",
+    "clientToScreen": "0x479efc",
+    "setMenu": "0x479e00",
+    "isChild": "0x479f0c",
+    "isWindow": "0x479ecc",
+    "getSystemMetrics": "0x47a03c",
+    "getParent": "0x479fb4",
+    "getMenu": "0x47a020",
+    "getWindowRect": "0x47a004",
+    "getClientRect": "0x47a034",
+    "setWindowPos": "0x479f9c",
+    "showCursor": "0x47a050",
+    "getFocus": "0x479ec4",
+    "isWindowVisible": "0x479ee4",
+    "getForegroundWindow": "0x479f4c",
+    "isWindowEnabled": "0x479f08",
+    "setFocus": "0x479fe0",
+    "isIconic": "0x47a014",
+    "textureCount": "0x10022c",
+    "textureSurfaceTable": "0x11ee50",
+    "textureInterfaceTable": "0x11d530",
+    "textureGpuNames": "0x11852c",
+    "textureCpuCache": "0x1d29f0",
+    "textureSelectedSlot": "0x1002ac",
+    "textureDimension": "0x1d29e0",
+    "textureSourceBase": "0x1b334c",
+    "textureSourceX": "0x1b37e8",
+    "textureSourceY": "0x1b3a0c",
+    "textureScratch": "0x11fed8",
+    "textureStagingSurface": "0x10028c",
+    "textureStagingInterface": "0x100284",
+    "textureLodSizes": "0x1112d0",
+    "textureLock": "0x100298",
+    "uploadGuard0": "0x11ee44",
+    "uploadGuard1": "0x11ecc8",
+    "uploadGuard2": "0x11846c",
+    "uploadIndex0": "0x116b1c",
+    "uploadIndex1": "0x11fecc",
+    "uploadIndex2": "0x11ee48",
+    "uploadTexture": "0x39f0",
+    "surfaceLock": "0x2840",
+    "fatalError": "0x73a30",
+    "d3dRoot": "0x100278",
+    "deviceIid": "0x11e530",
+    "deviceCreateResume": "0x2f99",
+    "getModuleHandleA": "0x479d14",
+    "getProcAddress": "0x479d2c",
+    "freeLibrary": "0x479b54",
+    "legacyDevice": "0x10027c",
+    "textureHandles": "0x117458",
+    "movieFlipReturn": "0x70978",
+    "movieHeader": "0x179fd8",
+    "movieBits": "0x17a400",
+    "moviePalette": "0x179058",
+    "movieDescription": "0x11fe50"
+  },
+  "configFields": {
+    "gameBase": "0x0",
+    "missionResume": "0x813e6",
+    "frameOriginal": "0x811e0",
+    "teardownOriginal": "0x7f5e0",
+    "modeResume": "0x3a906",
+    "videoOpenOriginal": "0x9f6f0",
+    "videoCleanupOriginal": "0x882c0",
+    "mainMenuShowResume": "0x3b226",
+    "mainMenuHideResume": "0x3b379",
+    "setupOriginal": "0x22b0",
+    "releaseResourcesOriginal": "0x2720",
+    "unlockOriginal": "0x2870",
+    "warmupResume": "0x24f0",
+    "warmupSuccess": "0x250e",
+    "warmupFailure": "0x251b",
+    "lockOriginal": "0x27d0",
+    "clearOriginal": "0x9ffb0",
+    "clearPolygonOriginal": "0x3ef0",
+    "unlockResume": "0x28d5",
+    "rendererInitOriginal": "0x2f80",
+    "executeDataResume": "0x3812",
+    "stateInstructionsResume": "0x34fa",
+    "stateExecuteDataResume": "0x3706",
+    "textureSourceResume": "0x3bd8"
+  },
+  "hooks": [
+    {
+      "name": "textureLoadHook",
+      "rva": "0x3c6d",
+      "original": "ff531885c0",
+      "opcode": "0xe8"
+    },
+    {
+      "name": "missionHook",
+      "rva": "0x813e0",
+      "original": "81ecd0010000",
+      "opcode": "0xe9"
+    },
+    {
+      "name": "frameHook",
+      "rva": "0x823c1",
+      "original": "e81aeeffff",
+      "opcode": "0xe8",
+      "originalBranchTargetRva": "0x811e0"
+    },
+    {
+      "name": "teardownHook",
+      "rva": "0x82501",
+      "original": "e8dad0ffff",
+      "opcode": "0xe8",
+      "originalBranchTargetRva": "0x7f5e0"
+    },
+    {
+      "name": "modeHook",
+      "rva": "0x3a900",
+      "original": "64a100000000",
+      "opcode": "0xe9"
+    },
+    {
+      "name": "videoOpenHook",
+      "rva": "0x9fa01",
+      "original": "e8eafcffff",
+      "opcode": "0xe8",
+      "originalBranchTargetRva": "0x9f6f0"
+    },
+    {
+      "name": "videoCleanupHook",
+      "rva": "0x9fbbb",
+      "original": "e80087feff",
+      "opcode": "0xe8",
+      "originalBranchTargetRva": "0x882c0"
+    },
+    {
+      "name": "mainMenuShowHook",
+      "rva": "0x3b220",
+      "original": "64a100000000",
+      "opcode": "0xe9"
+    },
+    {
+      "name": "mainMenuHideHook",
+      "rva": "0x3b370",
+      "original": "568bf18b89ec000000",
+      "opcode": "0xe9"
+    },
+    {
+      "name": "fullscreenSetupHook",
+      "rva": "0x3aae6",
+      "original": "e8c577fcff",
+      "opcode": "0xe8",
+      "originalBranchTargetRva": "0x22b0"
+    },
+    {
+      "name": "resourceReleaseHook",
+      "rva": "0x2203",
+      "original": "e818050000",
+      "opcode": "0xe8",
+      "originalBranchTargetRva": "0x2720"
+    },
+    {
+      "name": "resourceReleaseHook",
+      "rva": "0x2221",
+      "original": "e8fa040000",
+      "opcode": "0xe8",
+      "originalBranchTargetRva": "0x2720"
+    },
+    {
+      "name": "resourceReleaseHook",
+      "rva": "0x2306",
+      "original": "e815040000",
+      "opcode": "0xe8",
+      "originalBranchTargetRva": "0x2720"
+    },
+    {
+      "name": "resourceReleaseHook",
+      "rva": "0x259c",
+      "original": "e87f010000",
+      "opcode": "0xe8",
+      "originalBranchTargetRva": "0x2720"
+    },
+    {
+      "name": "startupFramesHook",
+      "rva": "0x24ea",
+      "original": "6a00ffd685c0",
+      "opcode": "0xe9"
+    },
+    {
+      "name": "clearPolygonHook",
+      "rva": "0x43f5",
+      "original": "e8f6faffff",
+      "opcode": "0xe8",
+      "originalBranchTargetRva": "0x3ef0"
+    },
+    {
+      "name": "clearPolygonHook",
+      "rva": "0x44c9",
+      "original": "e822faffff",
+      "opcode": "0xe8",
+      "originalBranchTargetRva": "0x3ef0"
+    },
+    {
+      "name": "surfaceUnlockHook",
+      "rva": "0x28d0",
+      "original": "8b44240453",
+      "opcode": "0xe9"
+    },
+    {
+      "name": "rendererInitHook",
+      "rva": "0x2ad2",
+      "original": "e8a9040000",
+      "opcode": "0xe8",
+      "originalBranchTargetRva": "0x2f80"
+    },
+    {
+      "name": "executeDataHook",
+      "rva": "0x380d",
+      "original": "8b01ff5018",
+      "opcode": "0xe9"
+    },
+    {
+      "name": "stateInstructionsHook",
+      "rva": "0x34f1",
+      "original": "8b5c2424ba01000000",
+      "opcode": "0xe9"
+    },
+    {
+      "name": "stateExecuteDataHook",
+      "rva": "0x3701",
+      "original": "8b01ff5018",
+      "opcode": "0xe9"
+    },
+    {
+      "name": "flushUnlockHook",
+      "rva": "0x3782",
+      "original": "e8e9f0ffff",
+      "opcode": "0xe8",
+      "originalBranchTargetRva": "0x2870"
+    },
+    {
+      "name": "createDeviceHook",
+      "rva": "0x2f8f",
+      "original": "8b186830e55100",
+      "opcode": "0xe9"
+    },
+    {
+      "name": "beginSceneBridge",
+      "rva": "0x370d",
+      "original": "8b01ff504c",
+      "opcode": "0xe8"
+    },
+    {
+      "name": "beginSceneBridge",
+      "rva": "0x3829",
+      "original": "8b18ff534c",
+      "opcode": "0xe8"
+    },
+    {
+      "name": "endSceneBridge",
+      "rva": "0x374d",
+      "original": "8b18ff5350",
+      "opcode": "0xe8"
+    },
+    {
+      "name": "endSceneBridge",
+      "rva": "0x3871",
+      "original": "8b18ff5350",
+      "opcode": "0xe8"
+    },
+    {
+      "name": "backbufferLockHook",
+      "rva": "0x27ec",
+      "original": "e84f000000",
+      "opcode": "0xe8",
+      "originalBranchTargetRva": "0x2840"
+    },
+    {
+      "name": "textureSourceHook",
+      "rva": "0x3bd3",
+      "original": "8b44241c50",
+      "opcode": "0xe9"
+    },
+    {
+      "name": "flipProbeHook",
+      "rva": "0x228f",
+      "original": "ff532c85c0",
+      "opcode": "0xe8"
+    },
+    {
+      "name": "ownedUnlockResultHook",
+      "rva": "0x28e0",
+      "original": "3d48027688",
+      "opcode": "0xe9"
+    },
+    {
+      "name": "observeSoftwareBitBlt",
+      "rva": "0x387f1",
+      "original": "ff15a8998700",
+      "opcode": "0xe8"
+    },
+    {
+      "name": "observeSoftwareStretchBlt",
+      "rva": "0x3882c",
+      "original": "ff154c9a8700",
+      "opcode": "0xe8"
+    },
+    {
+      "name": "menuBitmapHook",
+      "rva": "0x387ba",
+      "original": "e841710000",
+      "opcode": "0xe8"
+    },
+    {
+      "name": "observeMenuStretchBlt",
+      "rva": "0x3f98d",
+      "original": "ff154c9a8700",
+      "opcode": "0xe8"
+    },
+    {
+      "name": "endSceneFailureHook",
+      "rva": "0x387a",
+      "original": "68f8055000",
+      "opcode": "0xe9"
+    },
+    {
+      "name": "preMoviePresentHook",
+      "rva": "0x9f9e6",
+      "original": "e815f9fcff",
+      "opcode": "0xe8"
+    },
+    {
+      "name": "quadFlushReturnHook",
+      "rva": "0x1ffdc",
+      "original": "393560d75000",
+      "opcode": "0xe9"
+    },
+    {
+      "name": "quadHudReturnHook",
+      "rva": "0x20b2e",
+      "original": "a1901a5300",
+      "opcode": "0xe9"
+    },
+    {
+      "name": "quadFrameReturnHook",
+      "rva": "0x812c7",
+      "original": "e86438ffff",
+      "opcode": "0xe9"
+    },
+    {
+      "name": "presentRecoveryFrame",
+      "rva": "0x81cb9",
+      "original": "e8d245faff",
+      "opcode": "0xe8"
+    },
+    {
+      "name": "quadResetReturnHook",
+      "rva": "0x2b90",
+      "original": "8b54241c8b35c8fe5100",
+      "opcode": "0xe9"
+    },
+    {
+      "name": "worldFrameReturnHook",
+      "rva": "0x81221",
+      "original": "a160d75000",
+      "opcode": "0xe9"
+    },
+    {
+      "name": "rawSurfaceLockResultHook",
+      "rva": "0x2867",
+      "original": "83f8011bc0",
+      "opcode": "0xe9"
+    },
+    {
+      "name": "relockDecisionHook",
+      "rva": "0x25f5",
+      "original": "85c0750d68fc025000",
+      "opcode": "0xe9"
+    },
+    {
+      "name": "relockFrameReturnHook",
+      "rva": "0x8122f",
+      "original": "a170255100",
+      "opcode": "0xe9"
+    },
+    {
+      "name": "failedPresentationHook",
+      "rva": "0x2296",
+      "original": "68c0025000",
+      "opcode": "0xe9"
+    }
+  ],
+  "fixedPatches": [
+    {
+      "name": "preserveF4Mode",
+      "rva": "0x3b7c4",
+      "original": "33c9",
+      "replacement": "9090"
+    },
+    {
+      "name": "windowedAfterSoftwareFullscreen",
+      "rva": "0x3b7d3",
+      "original": "0f84ca000000",
+      "replacement": "0f8499010000"
+    },
+    {
+      "name": "stateBufferCapacity",
+      "rva": "0x34ab",
+      "original": "c744242cf0000000",
+      "replacement": "c744242c10010200"
+    },
+    {
+      "name": "stateBufferZeroCount",
+      "rva": "0x34ea",
+      "original": "b93c000000",
+      "replacement": "b944800000"
+    }
+  ],
+  "expectedImports": [
+    {
+      "rva": "0x479d4c",
+      "dll": "kernel32.dll",
+      "name": "GetLastError"
+    },
+    {
+      "rva": "0x479ca4",
+      "dll": "kernel32.dll",
+      "name": "SetLastError"
+    },
+    {
+      "rva": "0x479cb4",
+      "dll": "kernel32.dll",
+      "name": "GetCurrentThreadId"
+    },
+    {
+      "rva": "0x479e64",
+      "dll": "user32.dll",
+      "name": "GetWindowThreadProcessId"
+    },
+    {
+      "rva": "0x479efc",
+      "dll": "user32.dll",
+      "name": "ClientToScreen"
+    },
+    {
+      "rva": "0x479e00",
+      "dll": "user32.dll",
+      "name": "SetMenu"
+    },
+    {
+      "rva": "0x479f0c",
+      "dll": "user32.dll",
+      "name": "IsChild"
+    },
+    {
+      "rva": "0x479ecc",
+      "dll": "user32.dll",
+      "name": "IsWindow"
+    },
+    {
+      "rva": "0x47a03c",
+      "dll": "user32.dll",
+      "name": "GetSystemMetrics"
+    },
+    {
+      "rva": "0x479fb4",
+      "dll": "user32.dll",
+      "name": "GetParent"
+    },
+    {
+      "rva": "0x47a020",
+      "dll": "user32.dll",
+      "name": "GetMenu"
+    },
+    {
+      "rva": "0x47a004",
+      "dll": "user32.dll",
+      "name": "GetWindowRect"
+    },
+    {
+      "rva": "0x47a034",
+      "dll": "user32.dll",
+      "name": "GetClientRect"
+    },
+    {
+      "rva": "0x479f9c",
+      "dll": "user32.dll",
+      "name": "SetWindowPos"
+    },
+    {
+      "rva": "0x47a050",
+      "dll": "user32.dll",
+      "name": "ShowCursor"
+    },
+    {
+      "rva": "0x479ec4",
+      "dll": "user32.dll",
+      "name": "GetFocus"
+    },
+    {
+      "rva": "0x479ee4",
+      "dll": "user32.dll",
+      "name": "IsWindowVisible"
+    },
+    {
+      "rva": "0x479f4c",
+      "dll": "user32.dll",
+      "name": "GetForegroundWindow"
+    },
+    {
+      "rva": "0x479f08",
+      "dll": "user32.dll",
+      "name": "IsWindowEnabled"
+    },
+    {
+      "rva": "0x479fe0",
+      "dll": "user32.dll",
+      "name": "SetFocus"
+    },
+    {
+      "rva": "0x47a014",
+      "dll": "user32.dll",
+      "name": "IsIconic"
+    },
+    {
+      "rva": "0x479d14",
+      "dll": "kernel32.dll",
+      "name": "GetModuleHandleA"
+    },
+    {
+      "rva": "0x479d2c",
+      "dll": "kernel32.dll",
+      "name": "GetProcAddress"
+    },
+    {
+      "rva": "0x479b54",
+      "dll": "kernel32.dll",
+      "name": "FreeLibrary"
+    },
+    {
+      "rva": "0x4799a8",
+      "dll": "gdi32.dll",
+      "name": "BitBlt"
+    },
+    {
+      "rva": "0x479a4c",
+      "dll": "gdi32.dll",
+      "name": "StretchBlt"
+    },
+    {
+      "rva": "0x479f30",
+      "dll": "user32.dll",
+      "name": "GetKeyState"
+    },
+    {
+      "rva": "0x479fa0",
+      "dll": "user32.dll",
+      "name": "InvalidateRect"
+    }
+  ],
+  "retiredGameRelocations": {
+    "0x2297": "0x5002c0",
+    "0x25fa": "0x5002fc",
+    "0x2b96": "0x51fec8",
+    "0x2f92": "0x51e530",
+    "0x387b": "0x5005f8",
+    "0x1ffde": "0x50d760",
+    "0x20b2f": "0x531a90",
+    "0x387f3": "0x8799a8",
+    "0x3882e": "0x879a4c",
+    "0x3f98f": "0x879a4c",
+    "0x81222": "0x50d760",
+    "0x81230": "0x512570"
+  },
+  "joystick": {
+    "fileOffset": "0x38dbb",
+    "original": "c705bc9a570050030000",
+    "patched": "c705bc9a570000040000"
+  },
+  "shading": {
+    "hookRva": "0x406f",
+    "original": "f7dd3be87436",
+    "emitRva": "0x4075",
+    "skipRva": "0x40ab",
+    "fogHookRva": "0x3fec",
+    "fogResumeRva": "0x4017",
+    "fogOriginal": "33c033db39442438",
+    "fogCacheEntryOriginal": "8b4c24348b1d6c025000",
+    "clearReturnRvas": [
+      "0x43fa",
+      "0x44ce"
+    ],
+    "weaponReturnChain": [
+      {
+        "stackOffset": "0x30",
+        "returnRva": "0x2620d"
+      },
+      {
+        "stackOffset": "0x40",
+        "returnRva": "0x3803b"
+      },
+      {
+        "stackOffset": "0x88",
+        "returnRva": "0xf8f5"
+      },
+      {
+        "stackOffset": "0x94",
+        "returnRva": "0x592ac"
+      },
+      {
+        "stackOffset": "0xb0",
+        "returnRva": "0x21056"
+      }
+    ],
+    "polygonStack": {
+      "return": "0x30",
+      "source": "0x34",
+      "count": "0x38",
+      "flags": "0x3c"
+    },
+    "sourceVertexSize": "0x24",
+    "sourceFogOffsets": [
+      "0x20",
+      "0x44",
+      "0x68",
+      "0x8c"
+    ],
+    "clearCount": 4,
+    "clearFlags": "0x10",
+    "weaponCount": 4,
+    "weaponFlags": "0x23",
+    "needleCount": 4,
+    "needleFlags": "0x10",
+    "needleReturnChain": [
+      {
+        "stackOffset": "0x30",
+        "returnRva": "0x2620d"
+      },
+      {
+        "stackOffset": "0x40",
+        "returnRva": "0x3803b"
+      },
+      {
+        "stackOffset": "0x88",
+        "returnRva": "0xf8f5"
+      },
+      {
+        "stackOffset": "0x94",
+        "returnRva": "0x56922"
+      },
+      {
+        "stackOffset": "0xb8",
+        "returnRva": "0x59a2f"
+      },
+      {
+        "stackOffset": "0xc0",
+        "returnRva": "0x7536b"
+      }
+    ],
+    "radarBackgroundMinCount": 3,
+    "radarBackgroundMaxCount": 8,
+    "radarBackgroundFlags": "0x10",
+    "radarBackgroundReturnChain": [
+      {
+        "stackOffset": "0x30",
+        "returnRva": "0x2620d"
+      },
+      {
+        "stackOffset": "0x40",
+        "returnRva": "0x3803b"
+      },
+      {
+        "stackOffset": "0x88",
+        "returnRva": "0xf8f5"
+      },
+      {
+        "stackOffset": "0x94",
+        "returnRva": "0x56922"
+      },
+      {
+        "stackOffset": "0xb8",
+        "returnRva": "0x1ffcf"
+      }
+    ]
+  },
+  "payloadLayout": {
+    "missionStack": "0x1d0"
+  },
+  "evidence": {
+    "germanReferenceSha256": "0e31a60398565723179c19a914c81b62f25b82d921c2fd57cf945f8c90c606d5",
+    "nativeTextSha256": "edbe3e4798d0dd55721ea1f511ddeeaa7754a03c8b26932a465508c6d9f3cc2b",
+    "nativeCodeBytesIdentical": false,
+    "mappingMethod": "Relocation-aware paired instruction neighborhoods, exact call targets, import identities and manual control-flow/stack-layout review"
+  },
+  "limitations": [
+    "English native code and global layouts differ from German, so only this exact input identity is supported.",
+    "Mission prologue uses a 0x1d0 stack allocation and the F4 preservation instruction clears ECX.",
+    "Payload and shading placement must be derived from the English PE rather than copied from German."
+  ],
+  "pointerHooks": [
+    {
+      "name": "modeAdmissionPreTranslate",
+      "rva": "0xee51c",
+      "originalTargetRva": "0x3ba10"
+    },
+    {
+      "name": "softwarePresentHook",
+      "rva": "0xee584",
+      "originalTargetRva": "0x3acd0"
+    },
+    {
+      "name": "menuDrawHook",
+      "rva": "0xeb4e4",
+      "originalTargetRva": "0x38620"
+    },
+    {
+      "name": "menuQueueHook",
+      "rva": "0xee560",
+      "originalTargetRva": "0x54b40"
+    },
+    {
+      "name": "menuResumeHook",
+      "rva": "0xee164",
+      "originalTargetRva": "0x4d800"
+    },
+    {
+      "name": "menuNewGameHook",
+      "rva": "0xee294",
+      "originalTargetRva": "0x55b80"
+    },
+    {
+      "name": "menuMultiplayerHook",
+      "rva": "0xee3fc",
+      "originalTargetRva": "0x55ba0"
+    }
+  ],
+  "rendererClone": {
+    "version": 1,
+    "nativeEntryRva": "0x2f80",
+    "nativeBytes": 517,
+    "nativeSha256": "8bbd96a9d62c0cb928b634c776036edfb75e23062d5f4e6222ca0b71af377cbe",
+    "cloneBytes": 460,
+    "segments": [
+      {
+        "rva": "0x2f80",
+        "bytes": 435,
+        "cloneOffset": 0,
+        "sha256": "f5cd3d10dfef79239e83bd2560cfbf44a710dbf4eb8dadc303365d4f526e0502"
+      },
+      {
+        "rva": "0x316c",
+        "bytes": 8,
+        "cloneOffset": 435,
+        "sha256": "f84a17470fa26ff7146a6ca9840db2a30c96c4a4a2cf02bb9ea966a42102a818"
+      },
+      {
+        "rva": "0x3174",
+        "bytes": 17,
+        "cloneOffset": 443,
+        "sha256": "1308d19c22e2abced85397bbb57eb638ad56d46c43620d3464ece2c824cd048a"
+      }
+    ],
+    "bridgeOriginal": "8b186830e5510050ff13",
+    "templateSha256": "d490f109821a3d64011ab314a42013494a6da020e34757c639662b86c319991b",
+    "absoluteRelocations": [
+      {
+        "sourceRva": "0x2f84",
+        "cloneOffset": 4,
+        "targetRva": "0x100238"
+      },
+      {
+        "sourceRva": "0x2f8b",
+        "cloneOffset": 11,
+        "targetRva": "0x10027c"
+      },
+      {
+        "sourceRva": "0x2fa6",
+        "cloneOffset": 38,
+        "targetRva": "0x11847c"
+      },
+      {
+        "sourceRva": "0x2fb5",
+        "cloneOffset": 53,
+        "targetRva": "0x118520"
+      },
+      {
+        "sourceRva": "0x2fbb",
+        "cloneOffset": 59,
+        "targetRva": "0x11847c"
+      },
+      {
+        "sourceRva": "0x2fc0",
+        "cloneOffset": 64,
+        "targetRva": "0x11edd0"
+      },
+      {
+        "sourceRva": "0x2fc6",
+        "cloneOffset": 70,
+        "targetRva": "0x11fec0"
+      },
+      {
+        "sourceRva": "0x2fd2",
+        "cloneOffset": 82,
+        "targetRva": "0x11fec8"
+      },
+      {
+        "sourceRva": "0x2fdf",
+        "cloneOffset": 95,
+        "targetRva": "0x11d528"
+      },
+      {
+        "sourceRva": "0x2fe7",
+        "cloneOffset": 103,
+        "targetRva": "0x11851c"
+      },
+      {
+        "sourceRva": "0x2ffb",
+        "cloneOffset": 123,
+        "targetRva": "0x11d528"
+      },
+      {
+        "sourceRva": "0x3000",
+        "cloneOffset": 128,
+        "targetRva": "0x11fec8"
+      },
+      {
+        "sourceRva": "0x3008",
+        "cloneOffset": 136,
+        "targetRva": "0x11edd0"
+      },
+      {
+        "sourceRva": "0x3012",
+        "cloneOffset": 146,
+        "targetRva": "0x10027c"
+      },
+      {
+        "sourceRva": "0x3020",
+        "cloneOffset": 160,
+        "targetRva": "0x3190"
+      },
+      {
+        "sourceRva": "0x3049",
+        "cloneOffset": 201,
+        "targetRva": "0x100278"
+      },
+      {
+        "sourceRva": "0x3050",
+        "cloneOffset": 208,
+        "targetRva": "0x100280"
+      },
+      {
+        "sourceRva": "0x3065",
+        "cloneOffset": 229,
+        "targetRva": "0x100280"
+      },
+      {
+        "sourceRva": "0x306b",
+        "cloneOffset": 235,
+        "targetRva": "0x10027c"
+      },
+      {
+        "sourceRva": "0x3092",
+        "cloneOffset": 274,
+        "targetRva": "0x100218"
+      },
+      {
+        "sourceRva": "0x3098",
+        "cloneOffset": 280,
+        "targetRva": "0x10021c"
+      },
+      {
+        "sourceRva": "0x30aa",
+        "cloneOffset": 298,
+        "targetRva": "0xeb138"
+      },
+      {
+        "sourceRva": "0x30c8",
+        "cloneOffset": 328,
+        "targetRva": "0xeb138"
+      },
+      {
+        "sourceRva": "0x30ea",
+        "cloneOffset": 362,
+        "targetRva": "0xeb13c"
+      },
+      {
+        "sourceRva": "0x30fa",
+        "cloneOffset": 378,
+        "targetRva": "0xeb13c"
+      },
+      {
+        "sourceRva": "0x3103",
+        "cloneOffset": 387,
+        "targetRva": "0x100280"
+      }
+    ],
+    "relativeCalls": [
+      {
+        "cloneOffset": 426,
+        "targetRva": "0x3200"
+      },
+      {
+        "cloneOffset": 443,
+        "targetRva": "0x3470"
+      }
+    ],
+    "excludedFallback": {
+      "rva": "0x3133",
+      "bytes": 57,
+      "sha256": "70f645b9c3070060f794103fc20b54491e0da5b4f98ef685363b28f4df98f768"
+    }
+  }
+}

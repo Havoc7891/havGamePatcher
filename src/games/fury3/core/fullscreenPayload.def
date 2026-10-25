@@ -1,0 +1,13 @@
+; SPDX-License-Identifier: MIT
+
+LIBRARY fullscreenPayload
+EXPORTS
+  config DATA
+  state DATA
+  ToggleFullscreen
+  PollJoystick
+  PrepareMainMenu
+  LeaveMainMenu
+  ResizeMovie
+  StretchFrame=_StretchFrame@44
+  UpdateMenuCheck=_UpdateMenuCheck@12

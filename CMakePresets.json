@@ -1,0 +1,75 @@
+{
+  "version": 3,
+  "cmakeMinimumRequired": {
+    "major": 4,
+    "minor": 0,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "windows-base",
+      "hidden": true,
+      "binaryDir": "${sourceDir}/out/build/${presetName}",
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Windows"
+      }
+    },
+    {
+      "name": "msvc",
+      "displayName": "Visual Studio 2022 (x64)",
+      "inherits": "windows-base",
+      "generator": "Visual Studio 17 2022",
+      "architecture": "x64"
+    },
+    {
+      "name": "mingw-debug",
+      "displayName": "MinGW Debug",
+      "inherits": "windows-base",
+      "generator": "MinGW Makefiles",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CMAKE_EXPORT_COMPILE_COMMANDS": true
+      }
+    },
+    {
+      "name": "mingw-release",
+      "displayName": "MinGW Release",
+      "inherits": "windows-base",
+      "generator": "MinGW Makefiles",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "CMAKE_EXPORT_COMPILE_COMMANDS": true
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "msvc-debug",
+      "displayName": "MSVC Debug",
+      "configurePreset": "msvc",
+      "configuration": "Debug",
+      "targets": ["havGamePatcher"]
+    },
+    {
+      "name": "msvc-release",
+      "displayName": "MSVC Release",
+      "configurePreset": "msvc",
+      "configuration": "Release",
+      "targets": ["havGamePatcher"]
+    },
+    {
+      "name": "mingw-debug",
+      "displayName": "MinGW Debug",
+      "configurePreset": "mingw-debug",
+      "targets": ["havGamePatcher"]
+    },
+    {
+      "name": "mingw-release",
+      "displayName": "MinGW Release",
+      "configurePreset": "mingw-release",
+      "targets": ["havGamePatcher"]
+    }
+  ]
+}

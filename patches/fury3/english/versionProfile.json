@@ -1,0 +1,132 @@
+{
+  "format": "Fury3RetailVersionProfile",
+  "version": 1,
+  "gameId": "fury3",
+  "language": "English",
+  "originalSha256": "288ce23095c8e9092bdb665b561f13f58c5b7f4b7c3cdb03f7059ab4149e8438",
+  "joystickSha256": "3548df0193842904220d90a9cb07732dce8f06e8fdfd9111da50bd4382d0bf5c",
+  "sourceSize": 645120,
+  "originalSize": 645120,
+  "imageSize": "0x17c000",
+  "preferredBase": "0x400000",
+  "timestamp": "0x302fa452",
+  "checksum": "0x0",
+  "sectionCount": 7,
+  "gameRvas": {
+    "mainWindow": "0x1329cc",
+    "legacyFullscreen": "0x132464",
+    "joystickRawFallback": "0x13cb4c",
+    "joystickButtons": "0xebcb0",
+    "joystickEnabled": "0x13e728",
+    "originalJoystickPoll": "0x14c70",
+    "originalPrepareMainMenu": "0x4fbf0",
+    "originalLeaveMainMenu": "0x4fc90",
+    "originalResizeMovie": "0x50050",
+    "movieOpen": "0x143048",
+    "movieWindow": "0x5fc7c"
+  },
+  "fullscreenCommand": "0x9c45",
+  "configFields": {
+    "gameBase": "0x400000",
+    "getProcAddressIatRva": "0x1453b4",
+    "getModuleHandleAIatRva": "0x145398",
+    "stretchBltIatRva": "0x145324"
+  },
+  "payloadLayout": {
+    "magic": "0x46534650",
+    "version": 1,
+    "configSize": 24,
+    "stateSize": 132,
+    "preferredBase": "0x900000",
+    "linkerVersion": [
+      14,
+      44
+    ],
+    "normalizedTimestamp": "0x6ad48b91"
+  },
+  "hooks": [
+    {
+      "name": "ToggleFullscreen",
+      "rva": "0x4f055",
+      "original": "e8a124fbff",
+      "kind": "call"
+    },
+    {
+      "name": "StretchFrame",
+      "rva": "0xa136",
+      "original": "ff1524535400",
+      "kind": "call"
+    },
+    {
+      "name": "UpdateMenuCheck",
+      "rva": "0x4e5ca",
+      "original": "8b3d58555400",
+      "kind": "pointer"
+    },
+    {
+      "name": "PollJoystick",
+      "rva": "0x1d2a",
+      "original": "e9412f0100",
+      "kind": "jmp"
+    },
+    {
+      "name": "PollJoystick",
+      "rva": "0x14e95",
+      "original": "e95d32ffff",
+      "kind": "jmp"
+    },
+    {
+      "name": "PrepareMainMenu",
+      "rva": "0x1b63",
+      "original": "e988e00400",
+      "kind": "jmp"
+    },
+    {
+      "name": "LeaveMainMenu",
+      "rva": "0x1550",
+      "original": "e93be70400",
+      "kind": "jmp"
+    },
+    {
+      "name": "ResizeMovie",
+      "rva": "0x158c",
+      "original": "e9bfea0400",
+      "kind": "jmp"
+    }
+  ],
+  "expectedImports": [
+    {
+      "rva": "0x1453b4",
+      "dll": "kernel32.dll",
+      "name": "GetProcAddress"
+    },
+    {
+      "rva": "0x145398",
+      "dll": "kernel32.dll",
+      "name": "GetModuleHandleA"
+    },
+    {
+      "rva": "0x145324",
+      "dll": "gdi32.dll",
+      "name": "StretchBlt"
+    },
+    {
+      "rva": "0x145558",
+      "dll": "user32.dll",
+      "name": "CheckMenuItem"
+    }
+  ],
+  "retiredGameRelocations": {
+    "0xa138": "0x545324",
+    "0x4e5cc": "0x545558"
+  },
+  "joystick": {
+    "fileOffset": "0xa9b3",
+    "original": "c7056824530050030000",
+    "patched": "c7056824530000040000"
+  },
+  "reviewedPayloadSha256": "370be83da886e13bd63bfaad9d93d8f83d9ba5a9f87f68e273dc5979031d739d",
+  "reviewedOutputSha256": "d57bc95a60b77be06d5902dcac46b5903ce41af7bf122531615c2d02123ee616",
+  "reviewedOutputSize": 678912,
+  "patchVersion": 1
+}

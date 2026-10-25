@@ -1,0 +1,10 @@
+{
+  "edition": "French",
+  "patchVersion": 1,
+  "payloadVersion": 1,
+  "profileSha256": "f954360f49292f950308a8b81e94be2ac0d0f6cc1587b89e64275e9184d744ca",
+  "payloadSha256": "cc773996c8e40255b40d5228e31128994fe335c9023acff06837e5f18c6d83ca",
+  "intermediateSha256": "1c12007b44a70c4833950199091d81f75e737c85df6c445709edf0e812775557",
+  "patchedSha256": "772dfea51837accfeb4c72e3f3e0a78898ce8d63797c84c8b5501fc4f3890750",
+  "patchedSize": 1922048
+}

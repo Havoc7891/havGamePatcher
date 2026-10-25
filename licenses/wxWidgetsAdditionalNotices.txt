@@ -1,0 +1,62 @@
+Additional notices for enabled wxWidgets core/base code
+=======================================================
+
+Source: wxWidgets v3.3.4
+https://github.com/wxWidgets/wxWidgets/tree/v3.3.4
+
+The following notices are reproduced from the named upstream files.
+
+Calendar calculations
+---------------------
+Source: src/common/datetime.cpp and src/common/datetimefmt.cpp
+
+Copyright 1993-1995, Scott E. Lee, all rights reserved.
+Permission granted to use, copy, modify, distribute and sell
+so long as the above copyright and this permission statement
+are retained in all copies.
+
+Scoped pointers
+---------------
+Source: include/wx/scopedptr.h
+
+(C) Copyright Greg Colvin and Beman Dawes 1998, 1999.
+Copyright (c) 2001, 2002 Peter Dimov
+
+Permission to copy, use, modify, sell and distribute this software
+is granted provided this copyright notice appears in all copies.
+This software is provided "as is" without express or implied
+warranty, and with no claim as to its suitability for any purpose.
+
+IEEE floating-point conversion routines
+--------------------------------------
+Source: src/common/extended.c
+
+Copyright (C) 1989-1991 Ken Turkowski. <turk@computer.org>
+
+All rights reserved.
+
+Warranty Information
+Even though I have reviewed this software, I make no warranty
+or representation, either express or implied, with respect to this
+software, its quality, accuracy, merchantability, or fitness for a
+particular purpose.  As a result, this software is provided "as is,"
+and you, its user, are assuming the entire risk as to its quality
+and accuracy.
+
+This code may be used and freely distributed as long as it includes
+this copyright notice and the above warranty information.
+
+Spline drawing
+--------------
+Source: docs/doxygen/mainpages/copyright.h
+
+XFig2.1 is copyright (c) 1985 by Supoj Sutanthavibul. Permission to
+use, copy, modify, distribute, and sell this software and its
+documentation for any purpose is hereby granted without fee, provided
+that the above copyright notice appear in all copies and that both that
+copyright notice and this permission notice appear in supporting
+documentation, and that the name of M.I.T. not be used in advertising or
+publicity pertaining to distribution of the software without specific,
+written prior permission.  M.I.T. makes no representations about the
+suitability of this software for any purpose.  It is provided 'as is'
+without express or implied warranty.

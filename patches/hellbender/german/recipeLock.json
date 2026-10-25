@@ -1,0 +1,10 @@
+{
+  "edition": "German",
+  "patchVersion": 1,
+  "payloadVersion": 1,
+  "profileSha256": "ab94c60b09af549b6ecedc53686812a916833c50a2294770c83671836f86c8f2",
+  "payloadSha256": "3a22feb3e38bc7c72c06dd63601308b28127796801f285ec5c024429cef5a491",
+  "intermediateSha256": "721fffde22270d342a94bd63209d7ccca92caaa3c7a7dc146d6cc9feb338c3bc",
+  "patchedSha256": "55d72f849b959c89eb0a0ed5f061c2ac7b63727a6c094a95718e1d2461813633",
+  "patchedSize": 1924608
+}
